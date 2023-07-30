@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "langchain": "^0.0.120",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.0.4"
+  },
+  "name": "langchain",
+  "description": "pdf summarizer using langchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run":"node index.js"
+  },
+  "type": "module",
+  "author": "Aditya Nair",
+  "license": "ISC"
+}
