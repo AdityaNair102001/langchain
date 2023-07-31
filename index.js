@@ -3,7 +3,8 @@ import { OpenAI } from "langchain/llms/openai";
 import { loadSummarizationChain } from "langchain/chains";
 import { PDFLoader } from "langchain/document_loaders/fs/pdf";
 
-const loader = new PDFLoader("./dummy.pdf");
+// insert your file path here
+const loader = new PDFLoader("./dummy.pdf"); 
 const docs = await loader.load();
 
 const model = new OpenAI({ openAIApiKey: process.env.OPENAI_API_KEY, temperature: 0 });
